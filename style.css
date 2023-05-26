@@ -54,7 +54,6 @@ button {
   height: 200px;
   background-color: #ff6154;
   color: #ffffff;
-  z-index: 0;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -70,7 +69,6 @@ button {
   display: block;
   margin: 0 auto;
   background-color: #800b01;
-  z-index: 9999;
   border-radius: 50%;
 }
 .example-4:hover::before {
@@ -98,4 +96,14 @@ button {
 .example-6:hover {
   background-color: #2d69cc;
   border-radius: 25px 8px 8px 25px;
+}
+
+.example-7 {
+  border-radius: 25px;
+  border-width: 0;
+  background-color: #fbbc05;
+}
+.example-7:hover {
+  background-color: #bd8d02;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
